@@ -9,12 +9,12 @@ const App = () => {
 
   useEffect(() => {
     const images = [
-      "/parallax-eportfolio/assets/parallax/sun.svg",
-      "/parallax-eportfolio/assets/parallax/backclouds.svg",
-      "/parallax-eportfolio/assets/parallax/city.svg",
-      "/parallax-eportfolio/assets/parallax/middleclouds.svg",
-      "/parallax-eportfolio/assets/parallax/frontcloudstest.svg",
-      "/parallax-eportfolio/assets/parallax/mountain.svg",
+      "/assets/parallax/sun.svg",
+      "/assets/parallax/backclouds.svg",
+      "/assets/parallax/city.svg",
+      "/assets/parallax/middleclouds.svg",
+      "/assets/parallax/frontcloudstest.svg",
+      "/assets/parallax/mountain.svg",
     ];
 
     const checkImagesLoaded = () =>
@@ -44,8 +44,8 @@ const App = () => {
         });
 
       const modelPaths = [
-        "/parallax-eportfolio/assets/3d/fallguy.glb",
-        "/parallax-eportfolio/assets/3d/plane.glb",
+         import.meta.env.BASE_URL + "/assets/3d/fallguy.glb",
+         import.meta.env.BASE_URL + "/assets/3d/plane.glb",
       ];
 
       await Promise.all(modelPaths.map((path) => loadModel(path)));
