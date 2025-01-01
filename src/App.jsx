@@ -9,12 +9,12 @@ const App = () => {
 
   useEffect(() => {
     const images = [
-      "./src/assets/parallax/sun.svg",
-      "./src/assets/parallax/backclouds.svg",
-      "./src/assets/parallax/city.svg",
-      "./src/assets/parallax/middleclouds.svg",
-      "./src/assets/parallax/frontcloudstest.svg",
-      "./src/assets/parallax/mountain.svg",
+      "/assets/parallax/sun.svg",
+      "/assets/parallax/backclouds.svg",
+      "/assets/parallax/city.svg",
+      "/assets/parallax/middleclouds.svg",
+      "/assets/parallax/frontcloudstest.svg",
+      "/assets/parallax/mountain.svg",
     ];
 
     const checkImagesLoaded = () =>
@@ -44,8 +44,8 @@ const App = () => {
         });
 
       const modelPaths = [
-        "./src/assets/3d/fallguy.glb",
-        "./src/assets/3d/plane.glb",
+        "/assets/3d/fallguy.glb",
+        "/assets/3d/plane.glb",
       ];
 
       await Promise.all(modelPaths.map((path) => loadModel(path)));
@@ -82,7 +82,7 @@ const App = () => {
         <section id="experience" className="relative z-30 bg-cloud-blue min-h-screen py-16">
           <Experience />
         </section>
-        <section id="contact" className="relative z-30 bg-cloud-blue min-h-screen py-16 snap-start">
+        <section id="contact" className="relative z-30 bg-cloud-blue min-h-screen py-16">
           <Contact />
         </section>
       </div>

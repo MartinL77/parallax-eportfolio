@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { Html, useProgress } from "@react-three/drei";
 import { useGLTF, useAnimations } from "@react-three/drei";
-import fallguyScene from "../assets/3d/fallguy.glb";
+import fallguyScene from "../../public/assets/3d/fallguy.glb";
 
 const CanvasLoader = () => {
     const { progress, active } = useProgress();

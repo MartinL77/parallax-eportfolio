@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { Html, useProgress } from "@react-three/drei";
 import { useGLTF, useAnimations } from "@react-three/drei";
-import planeScene from "../assets/3d/plane.glb";
+import planeScene from "../../public/assets/3d/plane.glb";
 
 const CanvasLoader = () => {
     const { progress, active } = useProgress();

@@ -11,8 +11,8 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
-  base: '/parallax-eportfolio/', // Add this line for GitHub Pages
-  server: {
+    base: process.env.NODE_ENV === 'production' ? '/parallax-eportfolio/' : '/',  
+    server: {
     host: '0.0.0.0',
     port: 5173,
   }

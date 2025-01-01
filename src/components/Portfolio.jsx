@@ -2,7 +2,7 @@ import React from "react";
 
 const projectCard = [
   {
-    image: "./src/assets/Eportfolio.png",
+    image: "/assets/Eportfolio.PNG",
     title: "E-portfolio",
     subtitle: "HTML, CSS, JavaScript",
     description: `
@@ -18,7 +18,7 @@ const projectCard = [
     live: "https://martinl77.github.io",
   },
   {
-    image: "./src/assets/Library.png",
+    image: "/assets/Library.PNG",
     title: "E-commerce Library",
     subtitle: "HTML, CSS, JavaScript",
     description: `
@@ -38,7 +38,7 @@ const projectCard = [
 const Portfolio = () => {
   return (
     <div className="content-wrapper">
-      <h1 className="slide-down">Projects</h1>
+      <h1>Projects</h1>
       <ul className="project-list">
         {projectCard.map((project, index) => (
           <li className="project" key={index}>
@@ -63,7 +63,7 @@ const Portfolio = () => {
                     rel="noopener noreferrer"
                     className="project-description-link"
                   >
-                    <img src="./src/assets/github.png" alt="github" />
+                    <img src="/assets/github.png" alt="github" />
                   </a>
                   <a
                     href={project.live}
@@ -71,7 +71,7 @@ const Portfolio = () => {
                     rel="noopener noreferrer"
                     className="project-description-link"
                   >
-                    <img src="./src/assets/link.png" alt="link" />
+                    <img src="/assets/link.png" alt="link" />
                   </a>
                 </div>
               </div>
