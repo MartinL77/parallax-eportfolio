@@ -11,7 +11,8 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
-    base: process.env.NODE_ENV === 'production' ? '/parallax-eportfolio/' : '/',  
+    // base: process.env.NODE_ENV === 'production' ? '/parallax-eportfolio/' : '/',
+    base: '/parallax-eportfolio/',  
     server: {
     host: '0.0.0.0',
     port: 5173,
