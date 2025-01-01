@@ -15,7 +15,7 @@ const Navbar = () => {
           className="lg:hidden p-2 rounded-md focus:outline-none"
         >
           <img
-            src="/assets/hamburger-icon.png"
+            src={import.meta.env.BASE_URL + "/assets/hamburger-icon.png"}
             alt="hamburger-icon"
             className="w-6"
           />

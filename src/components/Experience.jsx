@@ -1,6 +1,6 @@
 const experienceCard = [
     {
-        image: "/assets/movember-logo.png",
+        image: import.meta.env.BASE_URL + "/assets/movember-logo.png",
         company: "Movember",
         role: "Intern Full Stack Developer",
         year: "Jan 2023 - Jan 2024",
@@ -15,7 +15,7 @@ const experienceCard = [
         ],
     },
     {
-        image: "/assets/commbank-logo.svg",
+        image: import.meta.env.BASE_URL + "/assets/commbank-logo.svg",
         company: "Commonwealth Bank",
         role: "Customer Care Specialist",
         year: "Jun 2024 - Present",

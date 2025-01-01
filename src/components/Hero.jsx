@@ -30,12 +30,12 @@ const Hero = ({ scrollContainer }) => {
         </div>
       </div>
 
-      <img className="parallax__sun" src="/assets/parallax/sun.svg" alt="" />
-      <img className="parallax__backclouds" src="/assets/parallax/backclouds.svg" alt="" />
-      <img className="parallax__city" src="/assets/parallax/city.svg" alt="" />
-      <img className="parallax__middleclouds" src="/assets/parallax/middleclouds.svg" alt="" />
-      <img className="parallax__frontclouds" src="/assets/parallax/frontclouds.svg" alt="" />
-      <img className="parallax__mountain" src="/assets/parallax/mountain.svg" alt="" />
+      <img className="parallax__sun" src= {import.meta.env.BASE_URL + "/assets/parallax/sun.svg"} alt="" />
+      <img className="parallax__backclouds" src={import.meta.env.BASE_URL + "/assets/parallax/backclouds.svg"} alt="" />
+      <img className="parallax__city" src={import.meta.env.BASE_URL + "/assets/parallax/city.svg"} alt="" />
+      <img className="parallax__middleclouds" src={import.meta.env.BASE_URL + "/assets/parallax/middleclouds.svg"} alt="" />
+      <img className="parallax__frontclouds" src={import.meta.env.BASE_URL + "/assets/parallax/frontclouds.svg"} alt="" />
+      <img className="parallax__mountain" src={import.meta.env.BASE_URL + "/assets/parallax/mountain.svg"} alt="" />
 
       <FallguyCanvas scrollContainer={scrollContainer} onLoad={() => console.log('Fallguy Model Loaded')}/>
       <PlaneCanvas scrollContainer={scrollContainer} onLoad={() => console.log('Plane Model Loaded')} />    

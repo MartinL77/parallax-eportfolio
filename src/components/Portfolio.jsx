@@ -63,7 +63,7 @@ const Portfolio = () => {
                     rel="noopener noreferrer"
                     className="project-description-link"
                   >
-                    <img src="/assets/github.png" alt="github" />
+                    <img src={import.meta.env.BASE_URL + "/assets/github.png"} alt="github" />
                   </a>
                   <a
                     href={project.live}
@@ -71,7 +71,7 @@ const Portfolio = () => {
                     rel="noopener noreferrer"
                     className="project-description-link"
                   >
-                    <img src="/assets/link.png" alt="link" />
+                    <img src={import.meta.env.BASE_URL + "/assets/link.png"} alt="link" />
                   </a>
                 </div>
               </div>

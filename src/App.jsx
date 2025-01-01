@@ -9,12 +9,12 @@ const App = () => {
 
   useEffect(() => {
     const images = [
-      "/assets/parallax/sun.svg",
-      "/assets/parallax/backclouds.svg",
-      "/assets/parallax/city.svg",
-      "/assets/parallax/middleclouds.svg",
-      "/assets/parallax/frontcloudstest.svg",
-      "/assets/parallax/mountain.svg",
+      import.meta.env.BASE_URL + "assets/parallax/sun.svg",
+      import.meta.env.BASE_URL + "assets/parallax/backclouds.svg",
+      import.meta.env.BASE_URL + "assets/parallax/city.svg",
+      import.meta.env.BASE_URL + "assets/parallax/middleclouds.svg",
+      import.meta.env.BASE_URL + "assets/parallax/frontcloudstest.svg",
+      import.meta.env.BASE_URL + "assets/parallax/mountain.svg",
     ];
 
     const checkImagesLoaded = () =>
