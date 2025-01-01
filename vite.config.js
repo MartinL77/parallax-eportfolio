@@ -11,6 +11,7 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
+  base: '/parallax-eportfolio/', // Add this line for GitHub Pages
   server: {
     host: '0.0.0.0',
     port: 5173,
