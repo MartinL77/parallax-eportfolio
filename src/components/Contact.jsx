@@ -4,8 +4,8 @@ import emailjs from "emailjs-com";
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
-    name: "",
-    email: "",
+    user_name: "",
+    user_email: "",
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -31,7 +31,7 @@ const Contact = () => {
           console.log(result); 
           setStatus("Message sent successfully!");
           setIsSubmitting(false);
-          setForm({ name: "", email: "", message: "" });
+          setForm({ user_name: "", user_email: "", message: "" });
         },
         (error) => {
           console.error(error); 
