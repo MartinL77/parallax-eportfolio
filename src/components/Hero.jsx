@@ -18,7 +18,7 @@ const Hero = ({ scrollContainer }) => {
               <span className="key">L</span>
               <span className="key">Y</span>
             </div>
-            <span className="parallax-role text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gradient bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 mt-4 lg:mt-6">
+            <span className="parallax-role text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold text-gradient bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 mt-4 lg:mt-6">
               Software Developer
             </span>
           </div>

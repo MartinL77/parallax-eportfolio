@@ -110,17 +110,17 @@
 }
 
 .parallax__mountain {
-  --parallax-speed: 200; 
+  --parallax-speed: 250; 
   z-index: 4;
 }
 
 .parallax__city {
-  --parallax-speed: 100; 
+  --parallax-speed: 150; 
   z-index: 5;
 }
 
 .parallax__middleclouds {
-  --parallax-speed: 70; 
+  --parallax-speed: 100; 
   z-index: 6;
 }
 
