@@ -37,7 +37,7 @@ const Hero = ({ scrollContainer }) => {
       <img className="parallax__frontclouds" src={import.meta.env.BASE_URL + "/assets/parallax/frontclouds.svg"} alt="" />
       <img className="parallax__mountain" src={import.meta.env.BASE_URL + "/assets/parallax/mountain.svg"} alt="" />
 
-      <FallguyCanvas scrollContainer={scrollContainer} onLoad={() => console.log('Fallguy Model Loaded')}/>
+      {/* <FallguyCanvas scrollContainer={scrollContainer} onLoad={() => console.log('Fallguy Model Loaded')}/> */}
       <PlaneCanvas scrollContainer={scrollContainer} onLoad={() => console.log('Plane Model Loaded')} />    
       </section>
   );
