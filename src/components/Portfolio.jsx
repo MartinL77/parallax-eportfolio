@@ -2,23 +2,7 @@ import React from "react";
 
 const projectCard = [
   {
-    image: "/assets/Eportfolio.PNG",
-    title: "E-portfolio",
-    subtitle: "HTML, CSS, JavaScript",
-    description: `
-      <ul>
-        <li>An online portfolio that showcases my projects and tells a bit about me.</li>
-        <li>Implemented a pop-up modal for contact information.</li>
-        <li>Added a dark mode toggle feature.</li>
-        <li>Integrated fancy background symbols that move with the mouse.</li>
-        <li>Sending an email is fully functional with EmailJS.</li>
-      </ul>
-    `,
-    github: "https://github.com/MartinL77/MartinL77.github.io",
-    live: "https://martinl77.github.io",
-  },
-  {
-    image: "/assets/Library.PNG",
+    image: import.meta.env.BASE_URL + "/assets/Library.PNG",
     title: "E-commerce Library",
     subtitle: "HTML, CSS, JavaScript",
     description: `
@@ -32,6 +16,36 @@ const projectCard = [
     `,
     github: "https://github.com/MartinL77/ecommerce-library",
     live: "https://martinl77.github.io/ecommerce-library/",
+  },
+  {
+    image: import.meta.env.BASE_URL + "/assets/windows-desktop-image.PNG",
+    title: "Windows Desktop Clone",
+    subtitle: "Vite, TypeScript, React",
+    description: `
+      <ul>
+        <li>Recreated the Windows 7 home screen desktop layout using Vite, React, and TypeScript.</li>
+        <li>Designed a functional taskbar with an interactive start menu.</li>
+        <li>Ensured a responsive layout that mimics the Windows 7 desktop experience on different screen sizes.</li>
+      </ul>
+    `,
+    github: "https://github.com/MartinL77/windows-desktop",
+    live: "https://martinl77.github.io/windows-desktop/",
+  },
+  {
+    image: import.meta.env.BASE_URL + "/assets/Eportfolio.PNG",
+    title: "E-portfolio",
+    subtitle: "HTML, CSS, JavaScript",
+    description: `
+      <ul>
+        <li>An online portfolio that showcases my projects and tells a bit about me.</li>
+        <li>Implemented a pop-up modal for contact information.</li>
+        <li>Added a dark mode toggle feature.</li>
+        <li>Integrated fancy background symbols that move with the mouse.</li>
+        <li>Sending an email is fully functional with EmailJS.</li>
+      </ul>
+    `,
+    github: "https://github.com/MartinL77/MartinL77.github.io",
+    live: "https://martinl77.github.io",
   },
 ];
 
