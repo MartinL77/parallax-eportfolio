@@ -32,6 +32,20 @@ const projectCard = [
     live: "https://martinl77.github.io/windows-desktop/",
   },
   {
+    image: import.meta.env.BASE_URL + "/assets/adn-project.PNG",
+    title: "ADN Auto Solutions",
+    subtitle: "Vite, TypeScript, React",
+    description: `
+      <ul>
+        <li>Developed a sleek and modern website for a local mechanic business.</li>
+        <li>Features a dynamic hero section with a video playing in the background.</li>
+        <li>Implemented responsive design for both desktop and mobile devices.</li>
+      </ul>
+    `,
+    github: "https://github.com/MartinL77/adn-auto-solutions",
+    live: "https://martinl77.github.io/adn-auto-solutions",
+  },
+  {
     image: import.meta.env.BASE_URL + "/assets/Eportfolio.PNG",
     title: "E-portfolio",
     subtitle: "HTML, CSS, JavaScript",
